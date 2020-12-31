@@ -10,5 +10,5 @@ timeArray.forEach((time: any) => {
     const sunPosition = SunCalc.getPosition(time, latitude, longitude)
     const sunriseAzimuth: number = 180 + sunPosition.azimuth * 180 / Math.PI
     const sunriseAltitude: number = sunPosition.altitude * 180 / Math.PI
-    console.log(moment(time).format('YYYY-MM-DD HH:mm'), sunriseAzimuth, sunriseAltitude)
+    console.log(moment(time).format('YYYY-MM-DD HH:mm'), '方位角: ' + sunriseAzimuth, '高度角: ' + sunriseAltitude)
 })
