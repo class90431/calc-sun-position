@@ -1,4 +1,4 @@
-# @class90431/calc-sun-position
+# @class90431/calc-sun-position
 
 ## 簡介
 
